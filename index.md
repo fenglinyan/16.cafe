@@ -8,9 +8,8 @@ pi.pac is a pac file that can auto choose the active proxy server running on loc
 
 ### IP test
 
-When you browsing Google.com: <iframe src="http://sspanel.net/ip.php" width="100px" height="50px"> </iframe>
-#
-When you browsing other website: <iframe src="http://45.32.164.128/ip.php" width="100px" height="50px"> </iframe>
+When you browsing Google.com: [Click here to see IP](http://sspanel.net/ip.php)
+When you browsing other website: [Click here to see IP](http://45.32.164.128/ip.php)
 
 ## Some Control Webpage
 ### [Clash](http://192.168.16.16:9090)
