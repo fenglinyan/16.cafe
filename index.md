@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to 16.cafe
 
 You can use the [editor on GitHub](https://github.com/fenglinyan/16.cafe/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
