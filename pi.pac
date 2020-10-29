@@ -1,10 +1,15 @@
+/*
+Some websites don't support IPv6, so run the code below first.
+sudo nano /etc/sysctl.conf
+net.ipv6.conf.all.disable_ipv6 = 1
+*/
 function proxySelect(){
     if (isResolvable("pi.local")) {
-        return "PROXY pi.local:7890; SOCKS pi.local:7891";
+        return "PROXY pi.local:7890";
     } else {
         //Then the backup
         if (isResolvable("pi3bplus.local")) {
-            return "PROXY pi3bplus.local:7890; SOCKS pi3bplus.local:7891";
+            return "PROXY pi3bplus.local:7890";
         } else {
             return "DIRECT";
         }
