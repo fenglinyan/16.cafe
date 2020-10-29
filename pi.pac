@@ -1,10 +1,10 @@
 function proxySelect(){
     if (isResolvable("pi.local")) {
-        return "PROXY pi.local:7890";
+        return "PROXY pi.local:7890; SOCKS pi.local:7891";
     } else {
         //Then the backup
         if (isResolvable("pi3bplus.local")) {
-            return "PROXY pi3bplus.local:7890";
+            return "PROXY pi3bplus.local:7890; SOCKS pi3bplus.local:7891";
         } else {
             return "DIRECT";
         }
